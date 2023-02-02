@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+
+body .login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/security.jpg");
+  background-size: cover;
+}
+body .login .login-items {
+  margin: 200px auto;
+  width: 300px;
+  height: 400px;
+  font-size: xx-large;
+  align-items: center;
+}
+body .login .login-items input {
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-size: large;
+}
+body .login .login-items button {
+  width: 230px;
+  height: 40px;
+  color: black;
+  font-size: x-large;
+  margin: 10px;
+}
+body .main-container {
+  visibility: hidden;
+  width: 100vw;
+  height: 0;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.815)), url("img/bg.jpg");
+  background-size: auto;
+}
+body .main-container .container {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 20px;
+}
+body .main-container .container h1 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 30px;
+  font-size: 40pt;
+  text-shadow: 4px 3px black;
+}
+body .main-container .container .img {
+  box-shadow: 10px 10px 10px 5px black;
+  border-radius: 20px;
+  margin: 40px auto;
+  height: 75vh;
+  width: 30vw;
+  background-size: cover;
+}
+@media screen and (max-width: 780px) {
+  body .main-container .container .img {
+    height: 60vh;
+    width: 80vw;
+  }
+}
+@media screen and (max-height: 800px) {
+  body .main-container .container h1 {
+    font-size: xx-large;
+  }
+}
+body .main-container .container .img1 {
+  background-image: url("img/1.jpg");
+}
+body .main-container .container .img2 {
+  background-image: url("img/2.jpg");
+}
+body .main-container .container .img3 {
+  background-image: url("img/3.JPG");
+  background-position: center;
+}
+body .main-container .container .img4 {
+  background-image: url("img/4.jpg");
+}
+body .main-container .container .img5 {
+  background-image: url("img/5.jpg");
+}
+body .main-container .container .img6 {
+  background-image: url("img/6.jpg");
+}
+body .main-container .container .img7 {
+  background-image: url("img/7.jpg");
+}
+body .main-container .container .img8 {
+  background-image: url("img/8.JPG");
+}
+body .main-container .container .img9 {
+  background-image: url("img/9.jpg");
+}
+body .main-container .container .img10 {
+  background-image: url("img/10.jpg");
+}
+body .main-container .container .img11 {
+  background-image: url("img/11.jpg");
+}
+body .main-container .container p {
+  float: bottom;
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
